@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Semana 01</title>
+    </head>
+    <body>
+        <script>
+            var numeros = [5, 6, 0, 1, 8, 7, 5, 4, 5, 7, 6, 7, 3, 2, 1, 7];
+            var mapa = [];
+
+            for (var i = 0; i < numeros.length; i++) {
+                if (mapa[numeros[i]] === undefined) {
+                    mapa[numeros[i]] = 0;
+                }
+                mapa[numeros[i]] += 1;
+            }
+            
+            var maiorFreq = 0;
+            var moda = -1;
+            
+            for (var prop in mapa) {
+                if (mapa[prop] > maiorFreq) {
+                    maiorFreq = mapa[prop];
+                    moda = prop;
+                }
+            }
+
+            if (moda == numeros[0]) {
+                console.log("O vetor informado não possui moda!");
+            } else {
+                console.log("A moda é " + moda + ".");
+            }
+
+        </script>
+    </body>
+</html>

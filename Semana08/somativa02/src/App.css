@@ -1,0 +1,14 @@
+body {
+    margin:5px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border: solid 1px #CCC;
+    margin: 3px;
+}
+
+label {
+    margin: 5px;
+}

@@ -1,0 +1,70 @@
+.teclado{
+  background-color: #636463;
+  color: white;
+  width: 200px;
+  height: 100px;
+  text-align: right;
+  font-size: 32px;
+  font-family: Arial;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.teclado-botoes{
+  width: 200px;
+  height: 350px;
+  background-color: #898989;
+}
+
+.botao-ac{
+  width: 149px;
+  height: 49px;
+  background-color: #f1f1f1;
+  font-size: 26px;
+  text-align: center;
+  float:left;
+  border: #c5c5c5;
+  margin: 0.5px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.botao-ope{
+  width: 49px;
+  height: 49px;
+  background-color: #da8726;
+  font-size: 26px;
+  text-align: center;
+  float:left;
+  color: white;
+  border: #c5c5c5;
+  margin: 0.5px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.botao-num{
+  width: 49px;
+  height: 49px;
+  background-color: #f1f1f1;
+  font-size: 26px;
+  text-align: center;
+  float:left;
+  border: #c5c5c5;
+  margin: 0.5px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.botao-zer{
+  width: 99px;
+  height: 49px;
+  background-color: #f1f1f1;
+  font-size: 26px;
+  text-align: center;
+  float:left;
+  border: #c5c5c5;
+  margin: 0.5px;
+  line-height: 49px;
+  text-align: center;
+}
